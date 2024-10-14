@@ -38,10 +38,9 @@ public class EjercicioMouseEvent extends Application {
 
 
     private void moverTexto(MouseEvent event, Text texto) {
-        //texto.setTranslateX(event.getX());
-        //texto.setTranslateY(event.getY());
-        texto.setX(event.getX());
-        texto.setY(event.getY());
+        texto.setTranslateX(event.getX());
+        texto.setTranslateY(event.getY());
+        
     }
 
 
